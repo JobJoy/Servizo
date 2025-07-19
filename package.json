@@ -1,0 +1,29 @@
+{
+  "name": "servizo-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "homepage": "https://JobJoy.github.io/servizo",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "@google/genai": "^1.2.0",
+    "@supabase/supabase-js": "^2.50.3",
+    "react": "^19.1.0-beta-94eed63c49-20240425",
+    "react-dom": "^19.1.0-beta-94eed63c49-20240425",
+    "react-router-dom": "^6.23.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.0",
+    "gh-pages": "^6.1.1",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.12"
+  }
+}
